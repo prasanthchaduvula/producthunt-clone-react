@@ -1,0 +1,143 @@
+.hero {
+  margin-top: 3rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.left {
+  width: 70%;
+}
+.left-section {
+  width: 100%;
+  border-radius: 0.6rem;
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.06rem;
+  margin-bottom: 1rem;
+}
+.popular {
+  background-color: white;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  &:hover {
+    background-color: #f3f3f3;
+  }
+}
+.popular-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popularlogo {
+  width: 5.5rem;
+  height: 5.5rem;
+}
+.populartext {
+  margin-left: 1rem;
+}
+h2 {
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.06rem;
+}
+h6 {
+  font-size: 1rem;
+  color: grey;
+  font-weight: 200;
+  letter-spacing: 0.06rem;
+  line-height: 2;
+}
+.comment-section {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+.comment-button {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.3rem;
+  color: grey;
+  font-size: 0.8rem;
+  letter-spacing: 0.06rem;
+  font-weight: bold;
+}
+.comment {
+  margin-right: 0.3rem;
+}
+.comment-name {
+  color: grey;
+  font-size: 0.8rem;
+  letter-spacing: 0.06rem;
+  font-weight: 200;
+  margin-left: 0.5rem;
+}
+
+.triangle-box {
+  border: 1px solid lightgrey;
+  padding: 1rem;
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+.triangle-no {
+  color: black;
+  line-height: 1.8;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.06rem;
+}
+
+// right sections
+.right {
+  width: 28%;
+}
+.right-section {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding: 1rem 0;
+  border-radius: 0.4rem;
+  box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+.maker-logos-section {
+  border-bottom: 1px solid grey;
+}
+.makers-logos {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin: 0.4rem;
+}
+.jointag {
+  color: #e4461a;
+  font-size: 0.8rem;
+  letter-spacing: 0.06rem;
+  font-weight: 200;
+}
+.producthunt-radio {
+  margin-top: 2rem;
+}
+.radio-div {
+  display: flex;
+  background-color: white;
+  align-items: center;
+}
+.radio-text {
+  color: black;
+  font-size: 1rem;
+  letter-spacing: 0.08rem;
+  font-weight: 700;
+  padding-left: 1rem;
+  line-height: 1.2;
+}
+.radio-img {
+  width: 5rem;
+  height: 4rem;
+}

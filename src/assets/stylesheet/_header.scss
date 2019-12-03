@@ -1,0 +1,78 @@
+header {
+  background-color: white;
+}
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.producthuntLogo {
+  width: 8rem;
+  height: 5rem;
+}
+.searchbox {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid lightgrey;
+  width: 20rem;
+  padding: 0.5rem 1rem 0.5rem 0.2rem;
+  border-radius: 0.3rem;
+}
+.searchicon {
+  color: black;
+  padding: 0 0.3rem;
+  background-color: white;
+}
+input {
+  background-color: white;
+  color: black;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.searchinput {
+  width: 17rem;
+  border: none;
+  color: grey;
+  font-size: 0.8rem;
+  letter-spacing: 0.06rem;
+}
+.navtags-div {
+  margin-left: 1rem;
+}
+.navtags {
+  color: rgba(0, 0, 0, 0.6);
+  padding: 0 0.5rem;
+  letter-spacing: 0.06rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.nav-buttons {
+  margin-left: 13rem;
+}
+.logo {
+  padding: 0.5rem 0.8rem;
+  background-color: none;
+  border: 1px solid lightgrey;
+  border-radius: 0.3rem;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.signup {
+  padding: 0.5rem 0.8rem;
+  background-color: #e4461a;
+  border: 1px solid lightgrey;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
