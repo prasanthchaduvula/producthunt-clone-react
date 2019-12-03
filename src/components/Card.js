@@ -22,7 +22,7 @@ export default function Card(props) {
       <div>
         <button className="triangle-box">
           <img className="triangle" src="triangle.png" alt="triangle" />
-          <p className="triangle-no">2525</p>
+          <p className="triangle-no">{props.likes}</p>
         </button>
       </div>
     </div>

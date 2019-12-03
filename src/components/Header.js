@@ -5,7 +5,7 @@ export default function Header() {
     <header>
       <div className="wrapper">
         <div className="nav-menu">
-          <div>
+          <div className="plogo">
             <a href="index.js">
               <img
                 className="producthuntLogo"

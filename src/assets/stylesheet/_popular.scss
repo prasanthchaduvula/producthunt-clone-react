@@ -1,5 +1,5 @@
 .hero {
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -13,11 +13,18 @@
   box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.1);
 }
 h1 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: black;
-  font-weight: bold;
-  letter-spacing: 0.06rem;
-  margin-bottom: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  margin: 2rem 0 1rem 0;
+}
+h3 {
+  font-size: 1rem;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+  margin: 2rem 0 1rem 0;
 }
 .popular {
   background-color: white;
@@ -44,14 +51,14 @@ h2 {
   font-size: 1rem;
   color: black;
   font-weight: bold;
-  letter-spacing: 0.06rem;
+  letter-spacing: 0.04rem;
 }
 h6 {
-  font-size: 1rem;
-  color: grey;
+  font-size: 0.8rem;
+  color: #535353;
   font-weight: 200;
-  letter-spacing: 0.06rem;
-  line-height: 2;
+  letter-spacing: 0.04rem;
+  padding: 0.5rem 0;
 }
 .comment-section {
   display: flex;
@@ -63,11 +70,11 @@ h6 {
   display: flex;
   align-items: center;
   border: 1px solid lightgrey;
-  padding: 0.3rem 0.5rem;
+  padding: 0.2rem 0.4rem;
   border-radius: 0.3rem;
   color: grey;
   font-size: 0.8rem;
-  letter-spacing: 0.06rem;
+  letter-spacing: 0.04rem;
   font-weight: bold;
 }
 .comment {
@@ -76,8 +83,8 @@ h6 {
 .comment-name {
   color: grey;
   font-size: 0.8rem;
-  letter-spacing: 0.06rem;
-  font-weight: 200;
+  letter-spacing: 0.04rem;
+  font-weight: 300;
   margin-left: 0.5rem;
 }
 
@@ -121,23 +128,22 @@ h6 {
   letter-spacing: 0.06rem;
   font-weight: 200;
 }
-.producthunt-radio {
-  margin-top: 2rem;
-}
 .radio-div {
   display: flex;
   background-color: white;
   align-items: center;
 }
 .radio-text {
-  color: black;
-  font-size: 1rem;
-  letter-spacing: 0.08rem;
+  color: #535353;
+  font-size: 0.8rem;
+  letter-spacing: 0.04rem;
   font-weight: 700;
   padding-left: 1rem;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 .radio-img {
   width: 5rem;
   height: 4rem;
+}
+h3 {
 }
